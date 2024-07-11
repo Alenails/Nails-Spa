@@ -77,3 +77,19 @@ img {
     font-size: 0.9em;
   }
 }
+/* Estilo para el enlace al formulario de Google Forms */
+.survey-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px; /* Tamaño de fuente */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+
+    /* Estilo al pasar el mouse */
+    &:hover {
+        background-color: #45a049; /* Color de fondo más oscuro */
+    }
+}
