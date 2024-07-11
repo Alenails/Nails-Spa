@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local de Manicura y Pedicure D´Ale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <h1>Local de Manicura y Pedicure D´Ale</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#encuesta">Encuesta</a></li>
+                    <li><a href="#promociones">Promociones</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Página de Inicio -->
+    <section id="inicio">
+        <div class="container">
+            <h2>Bienvenidos a Nuestro Local</h2>
+            <p>Ofrecemos los mejores servicios de manicura y pedicure en la ciudad de Manta.</p>
+            <img src="banner.jpg" alt="Banner Principal">
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="service">
+                <h3>Manicura</h3>
+                <p>Realizamos trabajos en esmalte tradicional, semipermanente, uñas acrílicas, uñas en gel, uñas 3D, uñas esculpidas con diseños a elección y gusto de nuestros clientes.</p>
+                <img src="manicura.jpg" alt="Manicura">
+            </div>
+            <div class="service">
+                <h3>Pedicure</h3>
+                <p>Realizamos limpieza, esmaltado tradicional, semipermanente, acripies y otros servicios</p>
+                <img src="pedicure.jpg" alt="Pedicure">
+            </div>
+        </div>
+    </section>
+
+    <!-- Encuesta de Satisfacción -->
+    <section id="encuesta">
+        <div class="container">
+            <h2>Encuesta de Satisfacción</h2>
+            <form action="submit_survey.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="satisfaccion">Nivel de Satisfacción:</label>
+                <select id="satisfaccion" name="satisfaccion" required>
+                    <option value="excelente">Excelente</option>
+                    <option value="bueno">Bueno</option>
+                    <option value="regular">Regular</option>
+                    <option value="malo">Malo</option>
+                </select>
+                
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Promociones -->
+    <section id="promociones">
+        <div class="container">
+            <h2>Promociones</h2>
+            <p>Consulta nuestras ofertas especiales y descuentos.</p>
+            <img src="promociones.jpg" alt="Promociones">
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="submit_contact.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Dirección: Barrio La Victoria, Av. 110 y calle C.L.V 3, Manta-Ecuador</p>
+            <p>Teléfono: 0997926215</p>
+            <p>Email: johanajohana8585@gmail.com</p>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Local de Manicura y Pedicure D´Ale. Todos los derechos reservados.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
