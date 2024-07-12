@@ -72,4 +72,16 @@ social-media {
 .social-media a:hover {
     color: #c2c2c2;
 }
+#inicio {
+    margin-bottom: 20px;
+}
+#servicios {
+    margin-bottom: 20px;
+}
+#encuesta {
+    margin-bottom: 20px;
+}
+#promociones {
+    margin-bottom: 20px;
+}
 
