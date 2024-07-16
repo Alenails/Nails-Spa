@@ -59,7 +59,7 @@ footer {
     width: 100%;
 }
 
-social-media {
+.social-media {
     margin-top: 10px;
 }
 
@@ -72,16 +72,7 @@ social-media {
 .social-media a:hover {
     color: #c2c2c2;
 }
-#inicio {
-    margin-bottom: 10px;
-}
-#servicios {
-    margin-bottom: 10px;
-}
-#encuesta {
-    margin-bottom: 10px;
-}
-#promociones {
-    margin-bottom: 10px;
-}
 
+section {
+    margin-bottom: 10px;
+}
