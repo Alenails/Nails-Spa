@@ -73,6 +73,10 @@ footer {
     color: #c2c2c2;
 }
 
-section {
+/* Márgenes inferiores para las secciones específicas */
+#inicio,
+#servicios,
+#encuesta,
+#promociones {
     margin-bottom: 10px;
 }
