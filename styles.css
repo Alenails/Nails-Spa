@@ -16,7 +16,7 @@ body {
 
 /* Estilos para el encabezado */
 header {
-    background-color: #f8f9fa;
+    background-color: #f8b3b3;
     padding: 20px 0;
 }
 
@@ -94,7 +94,7 @@ section img {
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #f8f9fa;
+    background-color: #f8b3b3;
     padding: 20px 0;
     text-align: center;
 }
